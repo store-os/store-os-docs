@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Storeos',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://storeos.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'store-os', // Usually your GitHub org/user name.
+  projectName: 'store-os-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
