@@ -9,10 +9,10 @@ module.exports = {
   projectName: 'store-os-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Storeos',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Storeos Logo',
+        src: 'img/symbol_blk.png',
       },
       items: [
         {
@@ -21,9 +21,9 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/store-os',
           label: 'GitHub',
           position: 'right',
         },
@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Storeos, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
