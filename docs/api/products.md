@@ -2,31 +2,31 @@
 id: products
 title: Products endpoint
 sidebar_label: /products
-slug: /
 ---
 
 ## JSON example
 
 ``` json
 {
-    "title": "adidas Ace 16.1 SG, Botas de fútbol Hombre",
-    "id": "B01FWRYM68",
-    "description": ".",
-    "images": [
+    "title": "adidas Ace 16.1 SG, Botas de fútbol Hombre", // required
+    "id": "B01FWRYM68", // required
+    "description": ".", // required
+    "images": [ // required
         "https://dev.alchersan.com/images/2.645-202.0/image1",
         "https://dev.alchersan.com/images/2.645-202.0/image2"
     ],
-    "available": true,
-    "price": 199.95,
+    "available": true, // required
+    "price": 199.95, // required
     "ship_price": 6.00,
-    "currency": "€",
     "discount": null,
-    "category": "Shoes",
-    "subcategory": "Sport shoes",
+    "date": null,
+    "category": ["Shoes", "Clothes"], // required
+    "subcategory": ["Sport", "Football"],
     "brand": "Adidas",
-    "gender": "male",
-    "metadata": {
-        "stock": [
+    "gender": "male/female/unisex",
+    "label": "OFERTA!",
+    "score": 0,
+    "stock": [
             {
                 "color": "yellow",
                 "sizes": [
@@ -44,6 +44,7 @@ slug: /
                 ]
             }
         ],
+    "metadata": {
         "features": [
             {
                 "title": "Material exterior",
@@ -54,9 +55,25 @@ slug: /
                 "description": "Tela"
             }
         ],
-        "specs": null
+        "specs": [
+            {
+                "spec": "Diámetro",
+                "measure": "",
+                "value": "1/2\", 5/8\", 3/4\""
+            },
+            {
+                "spec": "Dimensiones (la. × an. × al.).",
+                "measure": "(mm)",
+                "value": "65 x 33 x 45"
+            },
+            {
+                "spec": "Peso",
+                "measure": "kg.",
+                "value": "68,5"
+            }
+        ]
     },
-    "rating": [5, 4, 1, 5, 4],
+    "rating": [5, 4, 1, 5, 4, 4, 2, 3],
     "comments": [
         {
             "name": "Andrea",

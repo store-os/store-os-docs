@@ -1,10 +1,10 @@
 module.exports = {
   title: 'Storeos',
-  tagline: 'The tagline of my site',
+  tagline: 'Create your own e-commerce with React, Go APIs, Snipcart and ElasticSearch',
   url: 'https://storeos.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/storeos.png',
   organizationName: 'store-os', // Usually your GitHub org/user name.
   projectName: 'store-os-docs', // Usually your repo name.
   themeConfig: {
@@ -12,7 +12,7 @@ module.exports = {
       title: 'Storeos',
       logo: {
         alt: 'Storeos Logo',
-        src: 'img/symbol_blk.png',
+        src: 'img/storeos.png',
       },
       items: [
         {
@@ -87,13 +87,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/store-os/store-os-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/store-os/store-os-docs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
